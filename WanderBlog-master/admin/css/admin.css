@@ -1,0 +1,39 @@
+.adminContentBox{
+    margin: 0 auto;
+    background-color: beige;
+    width: 80%;
+    text-align: center;
+}
+#editUserForm input{
+    display: block;
+    margin: 5px auto;
+}
+#editUserForm select{
+    display: block;
+    margin: 5px auto;
+}
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE"
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+table,td,th{
+    border: 1px solid black;
+}
+td,th{
+    padding: 5px;
+}
+th{
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: #f6f6f6;
+}

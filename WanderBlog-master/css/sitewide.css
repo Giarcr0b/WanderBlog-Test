@@ -1,0 +1,101 @@
+/*
+CSS that is used throughout the whole site
+this allows for reuse of elements on different pages
+*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/*
+Wrapper
+*/
+#wrapper{
+    margin:0 auto;
+}
+/*
+Nav
+*/
+nav{
+    /*position: fixed;*/
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height:50px;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+    /*height: 100%;*/
+    /*height:50px;*/
+    display: inline-block;
+    font-size: 24px;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav li:hover{
+    background-color: grey;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#navSiteName{
+    font-size: 36px;
+    float: left;
+}
+#navRight{
+    float: right;
+    height: 100%;
+}
+.dropdown{
+
+}
+.dropdown:hover ul{
+    display: block;
+    position: absolute;
+}
+.dropdown ul{
+    background-color: black;
+    display: none;
+}
+.dropdown ul li{
+    display: block;
+}
+
+#navMenu{
+    display: none;
+    background-color: red;
+}
+
+/*
+LogReg Class
+*/
+.logRegBox{
+    background-color: beige;
+    /*display: block;*/
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.logRegBox p{
+    display: inline-block;
+}
+.logRegBox input{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 650px) {
+    #navRight{
+        display: none;
+    }
+
+}

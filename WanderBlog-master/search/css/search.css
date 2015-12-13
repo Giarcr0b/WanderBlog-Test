@@ -1,0 +1,40 @@
+#navSearch{
+    display: none;
+}
+#content{
+    background-color: red;
+    width: 90%;
+    margin: 0  auto;
+}
+#searchOptions{
+    box-sizing: border-box;
+    padding: 10px;
+    float:left;
+    height: 500px;
+    width: 20%;
+    background-color: #6E6E6E;
+    margin: 0 auto;
+}
+#searchOptions div{
+    padding: 5px;
+}
+#searchResults{
+    float:left;
+    height: 500px;
+    width: 80%;
+    background-color: #BDBDBD;
+}
+
+#resultUser{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    background-color: gainsboro;
+}
+
+#resultAdventure{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    background-color: gainsboro;
+}
