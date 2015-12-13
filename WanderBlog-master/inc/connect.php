@@ -8,9 +8,9 @@ $db = new mysqli(
 //"",
 //"COSAWanderBlog"
 "eu-cdbr-azure-north-d.cloudapp.net",
-"bfc8c221283ae4",
-"38b9c269",
-"COSAWanderBlog"
+"b3db0ca6efa7a5",
+"eb1ce59a",
+"DataBase_1109847"
 );
 //=================================================================================================
 // test if connection was established, and print any errors
