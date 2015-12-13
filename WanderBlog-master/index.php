@@ -16,8 +16,14 @@
 </head>
 <body>
 
-    <nav></nav>
-    <!--TODO all of the homepage-->
-    <!--TODO improve CSS on all pages-->
+<nav></nav>
+<!--TODO all of the homepage-->
+<!--TODO improve CSS on all pages-->
+
+<?php
+session_start();
+include("inc/nav.php");
+?>
+
 </body>
 </html>
