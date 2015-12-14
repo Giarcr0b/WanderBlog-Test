@@ -1,15 +1,15 @@
 <?php
-
-session_start();
-
-//=================================================================================================
-//check if a user is logged in, if not they are redirected to the main page
-//=================================================================================================
-if(!isset($_SESSION['myusername']))
-{
-    header("location:../index.php");
-}
-?>
+//
+//session_start();
+//
+////=================================================================================================
+////check if a user is logged in, if not they are redirected to the main page
+////=================================================================================================
+//if(!isset($_SESSION['myusername']))
+//{
+//    header("location:../index.php");
+//}
+//?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
