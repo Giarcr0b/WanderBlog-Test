@@ -9,7 +9,8 @@
 //{
 //    header("location:../index.php");
 //}
-//?>
+$query = $_GET["query"];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@ include("../inc/nav.php");
     <div id="authorDetails">
 <table>
     <tr>
-        <th>Author Details</th>
+        <th>Author <?php echo $query ?> Details</th>
     </tr>
 </table>
 
