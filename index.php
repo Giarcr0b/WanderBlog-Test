@@ -68,5 +68,9 @@
 
     });
 </script>
+<p>
+    <a href="author/index.php?query=John Doe">John Doe</a>
+</p>
+
 </body>
 </html>
