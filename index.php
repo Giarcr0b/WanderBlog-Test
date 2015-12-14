@@ -69,7 +69,7 @@
     });
 </script>
 <p>
-    <a href="author/index.php?query=John Doe">John Doe</a>
+    <a href="author/index.php?query=testacc">John Doe</a>
 </p>
 
 </body>

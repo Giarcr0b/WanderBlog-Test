@@ -9,7 +9,7 @@
 //{
 //    header("location:../index.php");
 //}
-$query = $_GET["query"];
+$selected = $_GET["query"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +42,19 @@ include("../inc/nav.php");
     <div id="authorDetails">
 <table>
     <tr>
-        <th>Author <?php echo $query ?> Details</th>
+        <th>Author <?php echo $selected ?> Details</th>
+    </tr>
+    <tr>
+        <td>Name: </td>
+        <?php
+            include("php/authorName.php?query=$selected");
+        ?>
+    </tr>
+    <tr>
+        <td>Country: </td>
+        <?php
+          include("php/authorCountry.php?query=$selected");
+        ?>
     </tr>
 </table>
 
