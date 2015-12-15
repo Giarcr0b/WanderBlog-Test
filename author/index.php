@@ -47,7 +47,7 @@ include("../inc/nav.php");
     <tr>
         <td>Name: </td>
         <?php
-            include("php/authorName.php?query=$selected");
+            include("php/authorName.php");
         ?>
     </tr>
     <tr>
