@@ -1,9 +1,9 @@
 <?php
 include("../../inc/connect.php");
 
-$name = $_GET["query"];
 
-echo "Hello";
+
+echo $selected;
 
 $sql_query = "SELECT * FROM user";
 
