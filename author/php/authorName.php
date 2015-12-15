@@ -3,8 +3,6 @@ include("../../inc/connect.php");
 
 
 
-echo $selected;
-
 $sql_query = "SELECT * FROM user";
 
 $result = $db->query($sql_query);
