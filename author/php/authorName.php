@@ -3,9 +3,19 @@ include("../../inc/connect.php");
 
 $name = $_GET["query"];
 
-$query = $db->query("SELECT * FROM user WHERE name = '$name'");
+$sql_query = "SELECT * FROM user WHERE name = '$name'";
 
-while($row = $query->fetch_array()){
+$result = $db->query($sql_query);
+
+
+
+while($row = $result->fetch_array()){
 
     echo "<td>".$row['name']."</td>";
 }
+
+$result->close();
+
+$db->close();
+
+?>
