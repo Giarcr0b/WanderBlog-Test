@@ -53,7 +53,7 @@ include("../inc/nav.php");
     <tr>
         <td>Country: </td>
         <?php
-          include("php/authorCountry.php?query=$selected");
+          include("php/authorCountry.php");
         ?>
     </tr>
 </table>
