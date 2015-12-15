@@ -3,7 +3,7 @@ include("../../inc/connect.php");
 
 $name = $_GET["query"];
 
-$sql_query = "SELECT * FROM user WHERE name = '$name'";
+$sql_query = "SELECT * FROM user WHERE name = 'testacc'";
 
 $result = $db->query($sql_query);
 
