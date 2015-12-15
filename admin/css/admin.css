@@ -1,0 +1,9 @@
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE"
+}
+table{
+    margin: 0 auto;
+}
+table,td,th{
+    border: 1px solid #CACACA;
+}
